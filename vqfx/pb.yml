@@ -14,3 +14,5 @@
         comment: "configured by ansible"
         file: "junos_config.set"
         logfile: "changes.log"
+  vars:
+    ansible_python_interpreter: '/usr/local/Cellar/ansible/2.4.3.0/libexec/bin/python'
